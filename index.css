@@ -1,0 +1,137 @@
+html {
+  background-color: hsl(225, 100%, 94%);
+
+}
+
+.background {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+ 
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  font-family: red hat display;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.container {
+  width: 450px;
+  background-color: hsl(0, 0%, 99%);
+  border-radius: 20px;
+  margin-top: 0px
+
+}
+
+.information {
+text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.title {
+  font-size: 28px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+}
+
+.description {
+  color: gray;
+  line-height: 26px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 11px;
+  margin-right: 48px;
+  margin-left: 48px;
+  padding: 25px 24px;
+  margin-bottom: 32px;
+  display:flex;
+  align-items: center;
+
+}
+
+.image {
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;  
+
+}
+.payment-button {
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 15px 102px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px rgba(13, 48, 189, .18);
+  font-family: red hat display;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.cancel-button {
+  font-size: 15px;
+  background-color: none;
+  font-family: red hat display;
+  margin-bottom: 48px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+
+.center-subscribe {
+  margin-left: 20px;
+}
+
+.music-logo {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  vertical-align: middle;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.annual-plan {
+  font-weight: bold;
+  margin-bottom: 6px;
+
+}
+
+.price {
+  color: #717FA6;
+}
+
+.change-link {
+  text-decoration: underline;
+  color: #382AE1;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 94px;
+}
